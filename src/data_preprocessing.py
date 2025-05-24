@@ -32,8 +32,6 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
-
-
 def transform_text(text):
     """
     Transforms the input text by converting it to lowercase, tokenizing, removing stopwords and punctuation, and stemming.

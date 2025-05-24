@@ -4,8 +4,8 @@ data_ingestion:
 feature_engineering:
      max_features: 20
 
-modle_builing:
-    n_estimaters : 15
+model_building:
+    n_estimators : 15
     random_state : 2
 
   
